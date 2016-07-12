@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "934ECDBB3DAF889EB637F410212F3E59DEE45D68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "934ECDBB3DAF889EB637F410212F3E59DEE45D68" : 0,
+    "6ED24CCF173FF1DCA4A86B5E2B80A483C672339D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2602C0F6-29E3-4A6C-A612-90DB3DC1A22F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "934ECDBB3DAF889EB637F410212F3E59DEE45D68" : "tenbear\/",
+    "6ED24CCF173FF1DCA4A86B5E2B80A483C672339D" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tenbear",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tenbear.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/120.26.55.28:22\/git\/tenbear.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6ED24CCF173FF1DCA4A86B5E2B80A483C672339D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "120.26.55.28:22\/git\/tenbear.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "934ECDBB3DAF889EB637F410212F3E59DEE45D68"
+    }
+  ]
+}

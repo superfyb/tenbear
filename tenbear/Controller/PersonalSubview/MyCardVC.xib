@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EkZ-8n-J33">
+                    <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Yq-0U-ztS">
+                            <rect key="frame" x="299" y="8" width="1" height="34"/>
+                            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="JT7-IH-nan"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhK-9p-rdC">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
+                            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="alA-KX-58A"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2r-5f-uYa">
+                            <rect key="frame" x="0.0" y="1" width="299" height="49"/>
+                            <state key="normal" title="添加银行卡" image="tj">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0G-gX-xdV">
+                            <rect key="frame" x="300" y="1" width="300" height="49"/>
+                            <state key="normal" title="换邦提现帐户" image="hk">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="4Yq-0U-ztS" firstAttribute="centerX" secondItem="EkZ-8n-J33" secondAttribute="centerX" id="4JX-GO-2g2"/>
+                        <constraint firstAttribute="bottom" secondItem="Q0G-gX-xdV" secondAttribute="bottom" id="5gy-df-zNK"/>
+                        <constraint firstAttribute="height" constant="50" id="A66-IG-QwN"/>
+                        <constraint firstItem="F2r-5f-uYa" firstAttribute="top" secondItem="fhK-9p-rdC" secondAttribute="bottom" id="Bu9-cK-hab"/>
+                        <constraint firstItem="Q0G-gX-xdV" firstAttribute="leading" secondItem="4Yq-0U-ztS" secondAttribute="trailing" id="EZu-4M-r8S"/>
+                        <constraint firstItem="F2r-5f-uYa" firstAttribute="leading" secondItem="EkZ-8n-J33" secondAttribute="leading" id="Fai-za-i84"/>
+                        <constraint firstAttribute="bottom" secondItem="F2r-5f-uYa" secondAttribute="bottom" id="Iup-dM-WQ1"/>
+                        <constraint firstItem="4Yq-0U-ztS" firstAttribute="top" secondItem="EkZ-8n-J33" secondAttribute="top" constant="8" id="Wbe-I0-pLF"/>
+                        <constraint firstItem="Q0G-gX-xdV" firstAttribute="top" secondItem="fhK-9p-rdC" secondAttribute="bottom" id="ZSI-ZB-4J1"/>
+                        <constraint firstItem="fhK-9p-rdC" firstAttribute="top" secondItem="EkZ-8n-J33" secondAttribute="top" id="cKf-SG-SSE"/>
+                        <constraint firstAttribute="bottom" secondItem="4Yq-0U-ztS" secondAttribute="bottom" constant="8" id="ef5-IC-JCY"/>
+                        <constraint firstAttribute="trailing" secondItem="Q0G-gX-xdV" secondAttribute="trailing" id="eje-a6-vFA"/>
+                        <constraint firstItem="4Yq-0U-ztS" firstAttribute="leading" secondItem="F2r-5f-uYa" secondAttribute="trailing" id="omv-KL-jrR"/>
+                        <constraint firstAttribute="trailing" secondItem="fhK-9p-rdC" secondAttribute="trailing" id="sje-27-x54"/>
+                        <constraint firstAttribute="bottom" secondItem="4Yq-0U-ztS" secondAttribute="bottom" constant="8" id="vUc-Um-MeJ"/>
+                        <constraint firstItem="fhK-9p-rdC" firstAttribute="leading" secondItem="EkZ-8n-J33" secondAttribute="leading" id="xu3-Lw-LAW"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="vUc-Um-MeJ"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="EkZ-8n-J33" secondAttribute="bottom" id="8Ml-42-xrf"/>
+                <constraint firstItem="EkZ-8n-J33" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zcp-Jk-qc0"/>
+                <constraint firstAttribute="trailing" secondItem="EkZ-8n-J33" secondAttribute="trailing" id="awa-jf-pF1"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="hk" width="23" height="23"/>
+        <image name="tj" width="23" height="23"/>
+    </resources>
+</document>

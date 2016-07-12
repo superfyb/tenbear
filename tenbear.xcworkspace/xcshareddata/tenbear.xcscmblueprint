@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "934ECDBB3DAF889EB637F410212F3E59DEE45D68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6ED24CCF173FF1DCA4A86B5E2B80A483C672339D" : 0,
+    "934ECDBB3DAF889EB637F410212F3E59DEE45D68" : 0,
+    "C05951B254160F688F3757B912A00E3963BB3D58" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B8FC2E3-CEA9-4DA4-837A-5270D30E82BF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6ED24CCF173FF1DCA4A86B5E2B80A483C672339D" : "..",
+    "934ECDBB3DAF889EB637F410212F3E59DEE45D68" : "tenbear\/",
+    "C05951B254160F688F3757B912A00E3963BB3D58" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tenbear",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tenbear.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/120.26.55.28:22\/git\/tenbear.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6ED24CCF173FF1DCA4A86B5E2B80A483C672339D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "120.26.55.28:22\/git\/tenbear.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "934ECDBB3DAF889EB637F410212F3E59DEE45D68"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/120.26.55.28:22\/git\/tenbear.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C05951B254160F688F3757B912A00E3963BB3D58"
+    }
+  ]
+}

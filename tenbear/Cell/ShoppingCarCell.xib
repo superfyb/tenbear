@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShoppingCarCell" id="KGk-i7-Jjw" customClass="ShoppingCarCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ba7603e1jw8f0za6kr1dij20yi0yidhr.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gxy-Ij-0KG">
+                        <rect key="frame" x="36" y="8" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="gxy-Ij-0KG" secondAttribute="height" id="26t-V8-VEg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="韩国原装进口comotmo可么那么全硅胶那瓶250ml（带二滴）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkE-3L-zHQ">
+                        <rect key="frame" x="131" y="8" width="181" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="浅绿色 250ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMx-Uw-v10">
+                        <rect key="frame" x="131" y="56" width="76" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥115" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLU-wD-2OT">
+                        <rect key="frame" x="131" y="77" width="36" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wur-qc-fUb">
+                        <rect key="frame" x="298" y="81" width="14" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uI-TV-DVS">
+                        <rect key="frame" x="0.0" y="0.0" width="36" height="106"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="1uI-TV-DVS" secondAttribute="height" multiplier="1:3" id="fcH-pp-c43"/>
+                        </constraints>
+                        <state key="normal" image="icon-xz"/>
+                        <state key="selected" image="icon-queren"/>
+                        <connections>
+                            <action selector="selectButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qaw-dM-ZIX"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kLU-wD-2OT" firstAttribute="leading" secondItem="gxy-Ij-0KG" secondAttribute="trailing" constant="5" id="92F-kd-Ox7"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gxy-Ij-0KG" secondAttribute="bottom" id="AZi-FT-4cz"/>
+                    <constraint firstItem="1uI-TV-DVS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Hfw-ic-Q6B"/>
+                    <constraint firstItem="gMx-Uw-v10" firstAttribute="top" secondItem="rkE-3L-zHQ" secondAttribute="bottom" id="JHH-ZU-9zr"/>
+                    <constraint firstItem="gMx-Uw-v10" firstAttribute="centerY" secondItem="gxy-Ij-0KG" secondAttribute="centerY" constant="10" id="M3q-RG-yTu"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kLU-wD-2OT" secondAttribute="bottom" id="W0k-f2-ZuD"/>
+                    <constraint firstItem="rkE-3L-zHQ" firstAttribute="leading" secondItem="gxy-Ij-0KG" secondAttribute="trailing" constant="5" id="YMo-Id-zWo"/>
+                    <constraint firstAttribute="bottom" secondItem="1uI-TV-DVS" secondAttribute="bottom" id="ZTX-ZW-PBu"/>
+                    <constraint firstItem="rkE-3L-zHQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Zo7-ft-Ngv"/>
+                    <constraint firstItem="gxy-Ij-0KG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="evq-LO-rKs"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wur-qc-fUb" secondAttribute="trailing" id="flV-nP-axk"/>
+                    <constraint firstItem="gMx-Uw-v10" firstAttribute="leading" secondItem="gxy-Ij-0KG" secondAttribute="trailing" constant="5" id="lop-11-WQf"/>
+                    <constraint firstItem="1uI-TV-DVS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lsy-2m-VFe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rkE-3L-zHQ" secondAttribute="trailing" id="ms0-2l-z9G"/>
+                    <constraint firstItem="gxy-Ij-0KG" firstAttribute="leading" secondItem="1uI-TV-DVS" secondAttribute="trailing" id="nAX-05-pbf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="wur-qc-fUb" secondAttribute="bottom" id="ySB-Fi-rdr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectButton" destination="1uI-TV-DVS" id="pFp-P9-GYZ"/>
+            </connections>
+            <point key="canvasLocation" x="270" y="322.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ba7603e1jw8f0za6kr1dij20yi0yidhr.jpg" width="690" height="690"/>
+        <image name="icon-queren" width="30" height="30"/>
+        <image name="icon-xz" width="30" height="30"/>
+    </resources>
+</document>

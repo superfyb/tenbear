@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="forumCell" id="KGk-i7-Jjw" customClass="ForumCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="105.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="473fa942jw1f26ycu0v9gj20u00x6q60.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iio-yl-ASD">
+                        <rect key="frame" x="8" y="16" width="73" height="73"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="iio-yl-ASD" secondAttribute="height" id="3Vx-Zo-F7K"/>
+                            <constraint firstAttribute="width" constant="73" id="o4U-V2-FDT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="画的真心棒哟" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9d-XM-CEt">
+                        <rect key="frame" x="91" y="16" width="102" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="pWk-Mg-tNt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="好棒的有木有；一笔一画的，颜色的细腻程度真的很好的呢好棒的有木有；好棒的有木有；一笔一画的，颜色的细腻程度真的很好的呢好棒的有木有；好棒的有木有；一笔一画的，颜色的细腻程度真的很好的呢好棒的有木有；" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrA-lA-4PA">
+                        <rect key="frame" x="91" y="41.5" width="221" height="56"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iio-yl-ASD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Jyl-rK-N1V"/>
+                    <constraint firstItem="lrA-lA-4PA" firstAttribute="leading" secondItem="iio-yl-ASD" secondAttribute="trailing" constant="10" id="OnJ-oF-iJo"/>
+                    <constraint firstItem="g9d-XM-CEt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="Prh-Ep-6If"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="iio-yl-ASD" secondAttribute="bottom" constant="8" id="VNm-A9-Xo5"/>
+                    <constraint firstAttribute="bottom" secondItem="lrA-lA-4PA" secondAttribute="bottom" id="c7E-M2-VX5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lrA-lA-4PA" secondAttribute="bottom" id="k1d-Rw-v7n"/>
+                    <constraint firstItem="g9d-XM-CEt" firstAttribute="leading" secondItem="iio-yl-ASD" secondAttribute="trailing" constant="10" id="k8U-ZW-bj1"/>
+                    <constraint firstItem="lrA-lA-4PA" firstAttribute="top" secondItem="g9d-XM-CEt" secondAttribute="bottom" constant="5" id="sIz-Ot-tfb"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lrA-lA-4PA" secondAttribute="trailing" id="xiO-ah-o6L"/>
+                    <constraint firstItem="iio-yl-ASD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="y3y-wx-j0k"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="VNm-A9-Xo5"/>
+                        <exclude reference="c7E-M2-VX5"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="473fa942jw1f26ycu0v9gj20u00x6q60.jpg" width="690" height="763"/>
+    </resources>
+</document>
